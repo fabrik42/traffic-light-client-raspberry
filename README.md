@@ -16,4 +16,5 @@ Besides this lib, the client only uses Ruby's core and stdlib.
 
 # Usage
 
-Start with `sudo ruby client.rb` (you need sudo rights to access the pins of the Raspberry Pi)
+Start with `sudo ruby client.rb` (you need sudo rights to access the pins of the Raspberry Pi).
+The client will run in the background.
