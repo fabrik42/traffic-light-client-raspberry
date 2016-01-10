@@ -6,6 +6,13 @@ require "pi_piper"
 
 include PiPiper
 
+at_exit do
+  puts "cleaning up registered GPIO pins..."
+  puts `echo 13 >/sys/class/gpio/unexport`
+  puts `echo 19 >/sys/class/gpio/unexport`
+  puts `echo 26 >/sys/class/gpio/unexport`
+end
+
 STATUS_URL = "https://traffic-light-server.herokuapp.com/lights"
 
 # will be filled with first response
