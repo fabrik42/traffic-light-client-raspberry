@@ -8,9 +8,7 @@ This project has been tested on Raspbian.
 
 # Installation
 
-Raspbian already comes with Ruby 1.9.3 - even though it's an old version we can go with it.
-
-This client uses the [pi_piper](https://github.com/jwhitehorn/pi_piper) gem, so head over there for installation instructions. Hint: you will need to install the ruby dev packages `sudo apt-get install ruby1.9.1-dev`.
+This client uses the [pi_piper](https://github.com/jwhitehorn/pi_piper) gem, so head over there for installation instructions. Hint: you will need to install the ruby dev packages `sudo apt-get install -y ruby-dev`.
 
 Besides this lib, the client only uses Ruby's core and stdlib.
 
