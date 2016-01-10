@@ -20,7 +20,7 @@ STATUS_URL = "https://traffic-light-server.herokuapp.com/lights"
 
 @pins = {
   "red"    => PiPiper::Pin.new(:pin => 13, :direction => :out),
-  "yellow" => PiPiper::Pin.new(:pin => 29, :direction => :out),
+  "yellow" => PiPiper::Pin.new(:pin => 19, :direction => :out),
   "green"  => PiPiper::Pin.new(:pin => 26, :direction => :out)
 }
 
